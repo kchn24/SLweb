@@ -24,6 +24,12 @@ function HomePage() {
             <button className="home-button">シフト表</button>
           </Link>
         </div>
+
+        <div className="button-container">
+          <Link to="/ShiftManagerPage">
+            <button className="home-button">ログイン</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ import Page1 from './Page1';
 import Page2 from './Page2';
 import Page3 from './Page3';
 import ShiftCreationPage from './ShiftCreationPage';
+import ShiftManagerPage from './ShiftManagerPage';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path="/page2" element={<Page2 />} />
         <Route path="/page3" element={<Page3 />} />
         <Route path="/ShiftCreationPage" element={<ShiftCreationPage />} />
+        <Route path="/ShiftManagerPage" element={<ShiftManagerPage />} />
       </Routes>
     </Router>
   </React.StrictMode>,
